@@ -6,16 +6,16 @@
     },
 
     "server":{
-        "ip": "localhost",
-        "port": 21,
+        "ip": process.env.SERVER_IP,
+        "port": process.env.PORT,
         "version": "1.18.1"
     },
 
     "position":{
         "enabled": false,
-        "x": 0,
-        "y": 0,
-        "z": 0
+        "x": 1700,
+        "y": 66,
+        "z": -700
     },
 
     "utils":{
@@ -26,7 +26,7 @@
 
         "anti-afk":{
             "enabled": false,
-            "sneak": false
+            "sneak": true
         },
 
         "chat-messages":{
@@ -43,6 +43,6 @@
         },
 
         "chat-log": true,
-        "auto-reconnect": false
+        "auto-reconnect": true
     }
 }
