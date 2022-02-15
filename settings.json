@@ -6,8 +6,8 @@
     },
 
     "server":{
-        "ip": process.env.SERVER_IP,
-        "port": process.env.PORT,
+        "ip": process.env.REACT_APP_SERVER_IP,
+        "port": process.env.REACT_APP_PORT,
         "version": "1.18.1"
     },
 
