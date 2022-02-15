@@ -6,8 +6,8 @@
     },
 
     "server":{
-        "ip": process.env.REACT_APP_SERVER_IP,
-        "port": process.env.REACT_APP_PORT,
+        "ip": ${{ secrets.SERVER_IP }},
+        "port": ${{ secrets.PORT }},
         "version": "1.18.1"
     },
 
