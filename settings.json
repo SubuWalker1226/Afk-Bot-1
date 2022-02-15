@@ -6,8 +6,8 @@
     },
 
     "server":{
-        "ip": ${{ secrets.SERVER_IP }},
-        "port": ${{ secrets.PORT }},
+        "ip": "Jonas.ploudos.com",
+        "port": 19296,
         "version": "1.18.1"
     },
 
