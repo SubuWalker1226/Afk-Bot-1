@@ -6,7 +6,7 @@
     },
 
     "server":{
-        "ip": ${process.env.SERVERIP},
+        "ip": "Jonas.ploudos.com",
         "port": 19296,
         "version": "1.18.1"
     },
